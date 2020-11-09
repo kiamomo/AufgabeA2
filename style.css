@@ -1,0 +1,136 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #1dba9d;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bold;
+}
+
+#playStopButton {
+    background-color: #de793a;
+    border: none;
+    color: #ffffff;
+    font-size: 0.8em;
+    padding: 0.5em 1.5em;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+#playStopButton:active {
+    background: #ffffff;
+}
+
+#reverbButton {
+    background-color: white;
+}
+
+div {
+    font-size: 25px;
+}
+
+
+.compressorSlider, .filterSlider, .slider {
+    margin: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3a588;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.compressorSlider:hover, .filterSlider:hover, .slider {
+    opacity: 1;
+}
+
+.compressorSlider::-webkit-slider-thumb, .filterSlider::-webkit-slider-thumb, .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #303bc3;
+    cursor: pointer;
+}
+
+.compressorClass {
+    width: 50%;  
+    float: left; 
+}
+
+.filterClass {
+    width: 50%;  
+    float: left; 
+}
+
+#gainContainer {
+    background: #F8FAA0;
+}
+
+#panningContainer{
+    background: #E3DA86;
+}
+
+#delayContainer{
+    background: #FDE895;
+}
+
+#reverbContainer{
+    padding: 1em;
+    background: black;
+}
+
+#compressorContainer{
+    padding-top: 1em;
+    background: grey;
+}
+
+#filterContainer{
+    padding-top: 1em;
+    background: grey;
+}
+
+#thresholdContainer{
+    background: #5BBBF0;
+}
+
+#ratioContainer{
+    background: #5FECFA;
+}
+
+#kneeContainer{
+    background: #62E3CB;
+}
+
+#attackContainer{
+    background: #5FFAB2;
+}
+
+#releaseContainer{
+    background: #5BF080;
+}
+
+#frequencyContainer{
+    background: #F26D38;
+}
+
+#detuneContainer{
+    background: #FC583A;
+}
+
+#qContainer{
+    background: #E64440;
+}
+
+#filterGainContainer{
+    background: #FC3A89;
+}
+
+#typeContainer{
+    background:#F238DA;
+    padding: .5em;
+}
